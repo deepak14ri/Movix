@@ -3,9 +3,12 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "http://{github-deepak14ri}.github.io/{Movix}",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "predeploy" : "npm run build",
+        "deploy" : "gh-pages -d build",
         "preview": "vite preview"
     },
     "dependencies": {
